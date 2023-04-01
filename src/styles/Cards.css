@@ -1,0 +1,27 @@
+section{
+    width: 80%;
+    margin: none;
+    margin-top: 5%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    height: 350px;
+    width: 250px;
+    background-color:white;
+    color: black;
+}
+.card:focus{
+    background-color: lightblue;
+}
+
+img{
+    height: 150px;
+    width: 100px;
+}
